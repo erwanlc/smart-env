@@ -1,9 +1,0 @@
-<!doctype html>
-<title>Hello from FHIR</title>
-{% if patient %}
-  <h1> Hello {{patient.name[0].given[0]}} {{patient.name[0].family[0]}}!</h1>
-  <h2> Your passport number is </h2>
-{% else %}
-  <h1>Nothing to show :(</h1>
-{% endif %}
-
